@@ -5,3 +5,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* GENERAL */
+
+* {
+    font-family: 'Fredoka', sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: #E43170;
+    margin: 40px auto;
+}
+
+.container {
+    margin: 20px auto;
+}
+
+.float-left {
+    float: left;
+}
+
+.cent-text {
+    text-align: center;
+}
