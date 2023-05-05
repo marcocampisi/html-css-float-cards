@@ -28,6 +28,8 @@ h1 {
 
 img {
     height: 80px;
+    float: left;
+    padding-right: 10px;
 }
 
 .container {
@@ -42,10 +44,11 @@ img {
 
 .role {
     color: white;
+    padding: 10px;
 }
 
 .link {
-    color:cyan;
+    color: dodgerblue;
 }
 
 .cent-text {
@@ -60,10 +63,6 @@ img {
     width: calc((100% / 3) - 20px);
 }
 
-.single-col > * {
-    display: inline-block;
-    line-height: 30px
-}
 
 .single-col {
     background-color: rgb(40, 40, 40);
