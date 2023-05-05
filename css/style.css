@@ -26,14 +26,55 @@ h1 {
     margin: 40px auto;
 }
 
-.container {
-    margin: 20px auto;
+img {
+    height: 120px;
 }
 
-.float-left {
-    float: left;
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.name {
+    color: white;
+    font-weight: bold;
+}
+
+.role {
+    color: white;
+}
+
+.link {
+    color:cyan
 }
 
 .cent-text {
     text-align: center;
+    margin: 50px auto;
+}
+
+/* LAYOUT  */
+
+.columns > * {
+    float: left;
+    width: calc((100% / 3) - 20px);
+}
+
+.single-col > * {
+    display: inline-block;
+    line-height: 30px
+}
+
+.columns > .cent-col{
+    margin: 0 10px;
+} 
+
+.single-col {
+    background-color: rgb(40, 40, 40);
+    margin-bottom: 20px;
+}
+
+.middle-col {
+    margin: 0 10px auto;
 }
