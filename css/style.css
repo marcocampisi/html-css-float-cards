@@ -27,13 +27,12 @@ h1 {
 }
 
 img {
-    height: 120px;
+    height: 80px;
 }
 
 .container {
     max-width: 1200px;
     margin: 20px auto;
-    justify-content: center;
 }
 
 .name {
@@ -46,7 +45,7 @@ img {
 }
 
 .link {
-    color:cyan
+    color:cyan;
 }
 
 .cent-text {
@@ -65,10 +64,6 @@ img {
     display: inline-block;
     line-height: 30px
 }
-
-.columns > .cent-col{
-    margin: 0 10px;
-} 
 
 .single-col {
     background-color: rgb(40, 40, 40);
